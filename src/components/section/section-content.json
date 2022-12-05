@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_section_contents",
+  "info": {
+    "displayName": "section_content",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
+    }
+  }
+}
