@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog-post",
     "pluralName": "blog-posts",
-    "displayName": "Blog post"
+    "displayName": "Blog post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,20 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "displayName": "link",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
     }
   }
 }
