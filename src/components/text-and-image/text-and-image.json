@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_text_and_image_text_and_images",
+  "info": {
+    "displayName": "text_and_image",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "is_text_on_left": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

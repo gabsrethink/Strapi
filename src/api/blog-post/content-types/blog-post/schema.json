@@ -37,6 +37,29 @@
       "type": "component",
       "repeatable": true,
       "component": "links.link"
+    },
+    "text_and_image": {
+      "displayName": "text_and_image",
+      "type": "component",
+      "repeatable": true,
+      "component": "text-and-image.text-and-image"
+    },
+    "trailTitle": {
+      "type": "string"
+    },
+    "trailDescription": {
+      "type": "text"
+    },
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "footerInfo": {
+      "type": "text"
     }
   }
 }
