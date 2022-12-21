@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_text_and_image_text_and_images",
+  "collectionName": "components_galery_galeries",
   "info": {
-    "displayName": "text_and_image",
-    "icon": "align-left",
+    "displayName": "galery",
+    "icon": "address-card",
     "description": ""
   },
   "options": {},
@@ -10,13 +10,16 @@
     "title": {
       "type": "string"
     },
-    "image": {
+    "images": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images"
       ]
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

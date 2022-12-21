@@ -60,6 +60,26 @@
     },
     "footerInfo": {
       "type": "text"
+    },
+    "projectTitle": {
+      "type": "string"
+    },
+    "projectLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "projectDescription": {
+      "type": "text"
+    },
+    "galery": {
+      "displayName": "galery",
+      "type": "component",
+      "repeatable": true,
+      "component": "galery.galery"
     }
   }
 }

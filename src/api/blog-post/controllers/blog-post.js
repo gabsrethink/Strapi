@@ -34,6 +34,20 @@ const getAll = (data) => {
       },
       is_text_on_left: posts.is_text_on_left,
     })),
+    projectTitle: item.projectTitle,
+    projectDescription: item.projectDescription,
+    projectLogo: {
+      name: item.projectLogo.name,
+      url: item.projectLogo.url,
+    },
+    galery: item.galery.map((posts) => ({
+      title: posts.title,
+      description: posts.description,
+      images: posts.images.map((img) => ({
+        name: img.name,
+        url: img.url,
+      })),
+    })),
   }));
 };
 
