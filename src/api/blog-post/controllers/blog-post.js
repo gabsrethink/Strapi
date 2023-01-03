@@ -43,6 +43,8 @@ const getAll = (data) => {
     galery: item.galery.map((posts) => ({
       title: posts.title,
       description: posts.description,
+      isDarkTheme: posts.isDarkTheme,
+      url: posts.url,
       images: posts.images.map((img) => ({
         name: img.name,
         url: img.url,
