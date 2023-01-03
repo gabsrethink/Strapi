@@ -17,6 +17,13 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "is_text_on_left": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
