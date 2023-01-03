@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@strapi/plugin-graphql": "^4.5.2",
-    "@strapi/plugin-i18n": "4.1.9",
-    "@strapi/plugin-users-permissions": "4.1.9",
-    "@strapi/provider-upload-cloudinary": "4.1.9",
-    "@strapi/strapi": "4.1.9",
+    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/provider-upload-cloudinary": "4.5.5",
+    "@strapi/strapi": "4.5.5",
     "pg": "8.7.3",
     "sqlite3": "^5.1.2",
     "strapi-plugin-populate-deep": "^1.1.2"
