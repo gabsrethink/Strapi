@@ -50,6 +50,13 @@ const getAll = (data) => {
         url: img.url,
       })),
     })),
+    promGallery: item.promGallery.map((image) => ({
+      name: image.name,
+      url: image.url,
+    })),
+    eventTitle: item.eventTitle,
+    eventDescription: item.eventDescription,
+    eventParagraph: item.eventParagraph,
   }));
 };
 

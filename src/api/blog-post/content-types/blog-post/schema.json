@@ -80,6 +80,23 @@
       "type": "component",
       "repeatable": true,
       "component": "galery.galery"
+    },
+    "promGallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "eventTitle": {
+      "type": "string"
+    },
+    "eventDescription": {
+      "type": "text"
+    },
+    "eventParagraph": {
+      "type": "text"
     }
   }
 }
