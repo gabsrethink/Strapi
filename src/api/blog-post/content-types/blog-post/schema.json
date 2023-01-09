@@ -97,6 +97,12 @@
     },
     "eventParagraph": {
       "type": "text"
+    },
+    "team": {
+      "displayName": "team",
+      "type": "component",
+      "repeatable": true,
+      "component": "team.team"
     }
   }
 }

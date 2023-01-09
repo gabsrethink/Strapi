@@ -57,6 +57,16 @@ const getAll = (data) => {
     eventTitle: item.eventTitle,
     eventDescription: item.eventDescription,
     eventParagraph: item.eventParagraph,
+    team: item.team.map((posts) => ({
+      name: posts.name,
+      role: posts.role,
+      function: posts.function,
+      isIntern: posts.isIntern,
+      image: {
+        name: posts.image.name,
+        url: posts.image.url,
+      },
+    })),
   }));
 };
 
