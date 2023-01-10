@@ -60,13 +60,14 @@ const getAll = (data) => {
     team: item.team.map((posts) => ({
       name: posts.name,
       role: posts.role,
-      function: posts.function,
       isIntern: posts.isIntern,
       image: {
         name: posts.image.name,
         url: posts.image.url,
       },
     })),
+    teamTitle: item.teamTitle,
+    teamDescription: item.teamDescription,
   }));
 };
 
