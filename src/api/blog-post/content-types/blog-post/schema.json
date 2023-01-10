@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "urlSlug": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
     },
@@ -31,12 +25,6 @@
       "allowedTypes": [
         "images"
       ]
-    },
-    "link": {
-      "displayName": "link",
-      "type": "component",
-      "repeatable": true,
-      "component": "links.link"
     },
     "text_and_image": {
       "displayName": "text_and_image",

@@ -22,9 +22,6 @@ const getAll = (data) => {
     footerInfo: item.footerInfo,
     trailTitle: item.trailTitle,
     trailDescription: item.trailDescription,
-    links: item.link.map((links) => ({
-      name: links.name,
-    })),
     text_and_image: item.text_and_image.map((posts) => ({
       title: posts.title,
       description: posts.description,
